@@ -3,6 +3,8 @@
 OTA (OpenSource Tenant Architecture) est un outil d’administration d’hébergement multi-utilisateurs écrit en Bash, conçu pour automatiser le déploiement et la gestion d’environnements web sous Linux.
 Il fournit une interface interactive en terminal permettant de gérer facilement les utilisateurs, les hébergements web, les bases de données, les accès FTP/SSH, les quotas et les informations serveur.
 
+Attention ! Le projet est encore en phase de développement, je continue de rendre le script plus permissif et plus détaillé.
+
 # Installation 
 
 **Cloner le projet**
