@@ -3,6 +3,22 @@
 OTA (OpenSource Tenant Architecture) est un outil d’administration d’hébergement multi-utilisateurs écrit en Bash, conçu pour automatiser le déploiement et la gestion d’environnements web sous Linux.
 Il fournit une interface interactive en terminal permettant de gérer facilement les utilisateurs, les hébergements web, les bases de données, les accès FTP/SSH, les quotas et les informations serveur.
 
+# Installation 
+
+**Cloner le projet**
+``` 
+git clone https://github.com/GRID-source/OTA.git
+```
+
+**Entrer dans le dossier**
+```
+cd OTA
+```
+
+**Lancer le script**
+```
+bash OTA_V4.sh
+```
 
 # Fonctionnalités
 
@@ -54,14 +70,3 @@ OTA installe automatiquement les paquets nécessaires :
 * unzip
 * vsftpd
 * quota
-
-# Pourquoi OTA ?
-
-OTA a été conçu pour fournir une alternative légère aux panels d’hébergement lourds comme cPanel ou Plesk.
-
-Objectifs :
-- Déploiement rapide
-- Interface terminal simple
-- Peu de dépendances
-- Contrôle complet du système
-- Solution open source et personnalisable
